@@ -1,0 +1,20 @@
+/* Project Name: SPA (One Page)
+Project Type: Web Design
+Project Version: v1.0.0
+Project Author: sunqfu */
+
+
+
+body {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    position: relative;
+  }
+
+  html{
+    font-size: 16px !important;
+  }
+
