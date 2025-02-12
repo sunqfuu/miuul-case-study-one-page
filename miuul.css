@@ -66,14 +66,14 @@ img:hover{
 .miuul_line_clamp10{
   display: -webkit-box;
   overflow: hidden;
-  --webkit-line-clamp: 5;
+  --webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
 }
 
 .miuul_line_clamp15{
   display: -webkit-box;
   overflow: hidden;
-  --webkit-line-clamp: 5;
+  --webkit-line-clamp: 15;
   -webkit-box-orient: vertical;
 }
 
