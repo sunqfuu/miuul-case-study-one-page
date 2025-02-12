@@ -4,17 +4,95 @@ Project Version: v1.0.0
 Project Author: sunqfu */
 
 
+:root{
+  --miuul_bg_color: #fbfcf8;
+  --miuul_color: #ffffff;
+}
 
-body {
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
     font-family: "Noto Sans", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
     position: relative;
-  }
+    background-color: var(--miuul_bg_color);
+    color: var(--miuul_color);
+}
 
-  html{
+html{
     font-size: 16px !important;
-  }
+}
 
+p{
+  text-align: justify;
+  padding: 0.7rem 1.1rem;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  margin : 1.1rem auto;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover{
+  opacity: 0.8;
+}
+
+.miuul_line_clamp5{
+  display: -webkit-box;
+  overflow: hidden;
+  --webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.miuul_line_clamp10{
+  display: -webkit-box;
+  overflow: hidden;
+  --webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.miuul_line_clamp15{
+  display: -webkit-box;
+  overflow: hidden;
+  --webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+/* HEADER */
+
+#miuul_header_id{
+  background-image: url('./img/5040007.jpg');
+  background-size: cover;
+  background-position: 49% 49%;
+  z-index: -1;
+  height: 99vh;
+  padding-top: 14rem;
+  text-align: center;
+}
+
+.miuul_header_icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 4%;
+  /* border: 1px solid rgba(255, 255, 255, 0.9); */
+  color: #fbfcf8;
+  font-size: 2.5rem;
+}
