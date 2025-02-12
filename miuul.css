@@ -21,6 +21,7 @@ body{
     position: relative;
     background-color: var(--miuul_bg_color);
     color: var(--miuul_color);
+    
 }
 
 html{
@@ -43,7 +44,7 @@ a{
 h1{
   text-align: center;
   text-transform: uppercase;
-  margin : 1.1rem auto;
+  margin-top: 1.1rem auto;
 }
 
 img{
@@ -84,8 +85,23 @@ img:hover{
   background-position: 49% 49%;
   z-index: -1;
   height: 99vh;
-  padding-top: 14rem;
+  padding-top: 20rem;
   text-align: center;
+}
+
+#miuul_header_heading_id{
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  background-size: cover;
+}
+
+#miuul_header_parag_id{
+  text-align: center;
+  color: aquamarine;
+  font-size: 1.2rem;
 }
 
 .miuul_header_icon{
@@ -95,4 +111,32 @@ img:hover{
   /* border: 1px solid rgba(255, 255, 255, 0.9); */
   color: #fbfcf8;
   font-size: 2.5rem;
+  
+}
+
+/* BACK TO TOP BUTTON */
+
+#back_to_top_id{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: gray;
+  color: #fbfcf8;
+  padding: 0.7rem 1.1rem;
+  border-radius: 20%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  
+}
+
+/* FOOTER */
+
+#miuul_footer_id{
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.1rem;
+  bottom: 0;
+  width: 100%;
+  
 }
