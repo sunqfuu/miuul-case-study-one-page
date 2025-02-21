@@ -4,31 +4,31 @@ Project Version: v1.0.0
 Project Author: sunqfu */
 
 
-:root{
+:root {
   --miuul_bg_color: dark;
   --miuul_color: #ffffff;
   --miuul_section_blue: blueviolet;
 }
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-body{
-    font-family: "Noto Sans", serif;
-    font-optical-sizing: auto;
-    position: relative;
-    background-image: url('https://images.unsplash.com/photo-1738463791783-b61514add113?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    
+body {
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1738463791783-b61514add113?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  color: white;
+
 }
 
-html{
-    font-size: 16px !important;
+html {
+  font-size: 16px !important;
 }
 
 /* p{
@@ -36,51 +36,51 @@ html{
   padding: 0.7rem 1.1rem;
 } */
 
-ul{
+ul {
   list-style-type: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-h1{
+h1 {
   text-align: center;
   text-transform: uppercase;
   margin-top: 1.1rem auto;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
 
-img:hover{
+img:hover {
   opacity: 0.8;
 }
 
-.miuul_line_clamp5{
+.miuul_line_clamp5 {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
 
-.miuul_line_clamp10{
+.miuul_line_clamp10 {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 10;
   -webkit-box-orient: vertical;
 }
 
-.miuul_line_clamp15{
+.miuul_line_clamp15 {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 15;
   -webkit-box-orient: vertical;
 }
 
-#miuul_navbar_id a{
+#miuul_navbar_id a {
   width: 100%;
   height: 60px;
   max-width: 1200px;
@@ -93,9 +93,10 @@ img:hover{
   font-size: 1.1rem;
   backdrop-filter: blur(10px)
 }
+
 /* HEADER */
 
-#miuul_header_id{
+#miuul_header_id {
   padding-top: 20rem;
   background-color: #000;
   height: 92vh;
@@ -105,10 +106,10 @@ img:hover{
   text-align: center;
   position: relative;
   z-index: -1;
-   
+
 }
 
-#miuul_header_heading_id{
+#miuul_header_heading_id {
   font-size: 1.2rem;
   text-transform: uppercase;
   color: white;
@@ -116,42 +117,42 @@ img:hover{
   background-size: cover;
 }
 
-#miuul_header_parag_id{
+#miuul_header_parag_id {
   text-align: center;
   color: aquamarine;
   font-size: 1.2rem;
 }
 
-.miuul_header_icon{
+.miuul_header_icon {
   width: 100px;
   height: 100px;
   border-radius: 4%;
   /* border: 1px solid rgba(255, 255, 255, 0.9); */
   color: #fbfcf8;
   font-size: 2.5rem;
-  
+
 }
 
 /* MAIN */
-section{
+section {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
-#section_blog_id{
+#section_blog_id {
   background-color: var(--miuul_section_blue);
   padding-top: 1rem;
   padding-bottom: 1rem;
 
 }
 
-#section_blog_id .card{
+#section_blog_id .card {
   margin-bottom: 0.7rem;
 }
 
 /* BACK TO TOP BUTTON */
 
-#back_to_top_id{
+#back_to_top_id {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
@@ -162,12 +163,12 @@ section{
   cursor: pointer;
   font-size: 1.8rem;
   opacity: 0.5;
-  
+
 }
 
 /* FOOTER */
 
-#miuul_footer_id{
+#miuul_footer_id {
   background-color: black;
   color: #ffffff;
   text-align: center;
@@ -175,13 +176,13 @@ section{
   bottom: 0;
   width: 100%;
   font-size: 1.1rem;
-  
+
 }
 
-#section_contact_id{
+#section_contact_id {
   background-color: var(--miuul_section_blue);
 }
 
-#section_about_me_id{
+#section_about_me_id {
   background-color: var(--miuul_section_blue);
 }
