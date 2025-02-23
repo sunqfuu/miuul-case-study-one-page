@@ -3,102 +3,336 @@
 
 <!-- Language -->
 <html lang="en">
-
-<head>
+  <head>
     <!-- Title -->
-    <title>Miuul One Page (My CV)</title>
+    <title>Miuul One Page (SPA)</title>
 
     <!-- Language and Character Encoding -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
 
     <!-- Responsive Desing -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SEO -->
 
     <!-- Favicon -->
 
     <!-- Font Awesome -->
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- Tailwind CSS  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
-    <style>
-        body {
-            background-image: url('./img/bg.jpg');
-            background-size: cover;
-            /* This ensures the image covers the entire background */
-            background-repeat: no-repeat;
-            /* This prevents the image from repeating */
-            background-position: center;
-            /* This centers the image in the background */
-        }
-    </style>
+    <!-- External CSS -->
+     <link rel="stylesheet" href="miuul.css">
+    
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#miuul_navbar_id">
+    <noscript>Your Browser Doesn't Support Javascript</noscript>
     <!-- Start Codes -->
 
+    <!-- Nav Bar Start -->
 
+    <nav
+      id="miuul_navbar_id"
+      class="navbar navbar-expand-md fixed-top text-white navbar-black bg-black"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./img/1sunqfu.png" width="30%" alt=""
+        /></a>
+        <button
+          class="navbar-toggler d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item me-3">
+              <a
+                href="#section_about_me_id"
+                class="nav_link"
+                id="about_me_link_id"
+                >AboutMe</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a href="#section_blog_id" class="nav_link" id="blog_link_id"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a
+                href="#section_contact_id"
+                class="nav_link"
+                id="contact_link_id"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a href="MyCV.html" class="nav_link" id="cv_link_id">MyCV</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdownId"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Socials</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a
+                  class="dropdown-item"
+                  href="https://www.linkedin.com/in/orhan-sa%C4%9F%C4%B1r-479771224/"
+                  ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+                >
+                <a class="dropdown-item" href="https://x.com/sunqfu"
+                  ><i class="fa-brands fa-x-twitter"></i> Twitter</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://steamcommunity.com/id/sunqfu"
+                  ><i class="fa-brands fa-steam"></i> Steam</a
+                >
+                <a class="dropdown-item" href="https://soundcloud.com/sunqfu"
+                  ><i class="fa-brands fa-soundcloud"></i> Soundcloud</a
+                >
+                <a class="dropdown-item" href="https://github.com/sunqfuu"
+                  ><i class="fa-brands fa-github"></i> Github</a
+                >
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Nav Bar End -->
 
     <!-- Header Start -->
+
     <header id="miuul_header_id">
-        <img src="" alt="Miuul Picture Isn't Found">
-        <p id="miuul_header_parag_id">Frontend Learning</p>
-        <a href="#" class="miuul_header_icon">LinkedIn</a>
-        <a href="#" class="miuul_header_icon">Youtube</a>
-        <a href="#" class="miuul_header_icon">GitHub</a>
+      <h1 id="miuul_header_heading_id">
+        Welcome to My Personal Frontend Learnin Page
+      </h1>
+      <img src="./img/1sunqfu.png" width="18%" height="18%" />
+      <p id="miuul_header_parag_id">
+        HTML5, CSS3, JS, Bootstrap, Tailwind, Node JS
+      </p>
+      <a
+        href="https://www.linkedin.com/in/orhan-sa%C4%9F%C4%B1r-479771224/"
+        id="miuul_linkedin_id"
+        class="miuul_header_icon"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a
+        href="https://www.youtube.com/@sunqfu"
+        id="miuul_youtube_id"
+        class="miuul_header_icon"
+        ><i class="fa-brands fa-youtube"></i
+      ></a>
+      <a
+        href="https://github.com/sunqfuu"
+        id="miuul_github_id"
+        class="miuul_header_icon"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a
+        href="https://steamcommunity.com/id/sunqfu"
+        id="miuul_steam_id"
+        class="miuul_header_icon"
+        ><i class="fa-brands fa-steam"></i
+      ></a>
     </header>
     <!-- Header End -->
 
     <!-- Main Start -->
-    <main>
-        <!-- About Start -->
-        <section id="section_my_cv_id">
-            <form action="#" id="section_my_cv_id">
-                <fieldset>
-                    <legend>Personal Information</legend>
-                    <!-- Name -->
-                    <label for="my_cv_name">Name:</label>
-                    <input type="text" id="my_cv_name_id" name="name" required>
-                    <!-- Surname -->
-                    <label for="my_cv_surname">Surname:</label>
-                    <input type="text" id="my_cv_surname_id" name="surname" required>
-                    <!-- E-Mail -->
-                    <label for="my_cv_surname_id">Email:</label>
-                    <input type="email" id="my_cv_email_id" name="email" required>
-                    <!-- Telephone -->
-                    <label for="my_cv_phone_id">Phone:</label>
-                    <input type="tel" id="my_cv_phone_id" name="phone" required>
-                    <!-- Gender -->
-                    <label for="my_cv_gender_id">Gender:</label>
-                    <input type="radio" id="female" name="Gender" checked> Female
+    <main class="h-screen flex items-center justify-center">
+      <!-- About Start -->
+      <section
+      id="section_my_cv_id"
+      class="bg-white p-7 w-96 rounded shadow-md"
+    >
+      <form action="#" id="my_cv_form_id" method="get" onsubmit="return validateMiuulMyCv()">
+        <fieldset>
+          <legend class="mb-8 font-semibold text-center text-black">
+            My CV
+          </legend>
 
-                    <input type="radio" id="Male" name="Gender">Male
+          <!-- NAME -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_name_id"
+              >Name:</label
+            >
+            <input
+              type="text"
+              name="my_cv_name"
+              id="my_cv_name_id"
+              placeholder="Enter your name"
+              autofocus
+              class="mt-2 p-2 w-full border border-gray-800 rounded-md"
+            />
+          </div>
 
-                    <!-- Address -->
-                    <label for="my_cv_adress_id">Address:</label>
-                    <input type="text" id="my_cv_address_id" name="address" required>
-                    <!-- Message -->
-                    <label for="my_cv_message_id">Message:</label>
-                    <textarea id="my_cv_message_id" name="message" placeholder="Enter Your Message" cols="30" rows="10"
-                        required></textarea>
-                    <input type="text" id="my_cv_message_id" name="message" required>
-                </fieldset>
-            </form>
-        </section>
-        <!-- About End -->
+          <!-- SURNAME -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_surname_id"
+              >Surname:</label
+            >
+            <input
+              type="text"
+              name="my_cv_surname"
+              id="my_cv_surname_id"
+              placeholder="Enter your surname"
+              class="mt-2 p-2 w-full border border-gray-800 rounded-md"
+            />
+          </div>
 
+          <!-- EMAIL -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_email_id"
+              >Email:</label
+            >
+            <input
+              type="email"
+              name="my_cv_email"
+              id="my_cv_email_id"
+              placeholder="Enter your email"
+              class="mt-2 p-2 w-full border border-gray-800 rounded-md"
+            />
+          </div>
 
+          <!-- PHONE -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_phone_id"
+              >Phone:</label
+            >
+            <input
+              type="tel"
+              name="my_cv_phone"
+              id="my_cv_phone_id"
+              placeholder="Enter your phone"
+              class="mt-2 p-2 w-full border border-gray-800 rounded-md"
+            />
+          </div>
+
+          <!-- GENDER -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_phone_id"
+              >Gender:</label
+            >
+            <input type="radio" name="gender" id="female"  class="w-4 h-4"  checked />
+            <span class="text-black">:Bayan</span>
+
+            <input type="radio" class="w-4 h-4" id="male" name="gender" />
+            <span class="text-black">:Bay</span>
+          </div>
+
+          <!-- ABILITY -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_phone_id"
+              >Ability:</label
+            >
+            <input type="checkbox"  class="w-4 h-4" />
+            <span class="text-black">:HYML 5</span>
+            <input type="checkbox"  class="w-4 h-4" />
+            <span class="text-black">:CSS 3</span>
+            <input type="checkbox" checked  class="w-4 h-4" />
+            <span class="text-black" >:JS</span>
+          </div>
+
+          <!-- MESSAGE -->
+          <div class="mb-4">
+            <label
+              class="text-sm text-black block font-medium"
+              for="my_cv_message_id"
+              >Message:</label
+            >
+            <textarea
+              name="my_cv_message"
+              id="my_cv_message_id"
+              cols="30"
+              rows="10"
+              placeholder="Enter your message"
+              class="mt-2 p-2 w-full border border-gray-800 rounded-md"
+            ></textarea>
+          </div>
+
+          <div class="mb-4">
+            <input type="reset" class="mb-3 border border-gray-800 w-full bg-blue-200 p-2 text-black hover:bg-black hover:text-white" value="Temizle" id="my_cv_submit_id" />
+            <input type="submit" class="border border-gray-800 w-full bg-yellow-400 p-2 text-black hover:bg-black hover:text-white" value="Gönder" id="my_cv_submit_id" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+      <!-- About End -->
     </main>
     <!-- Main End -->
+
+    <!-- Back to Top Start -->
+    <a href="#miuul_header_id" id="back_to_top_id"
+      ><i class="fa-solid fa-circle-arrow-up"></i
+    ></a>
+    <!-- Back to Top End -->
+    <!-- Footer Start -->
+    <footer id="miuul_footer_id">
+      <a href="mailto:sagir.o@outlook.com">sagir.o@outlook.com</a>
+      <div>
+        Tarih:
+        <p id="miuul_date_id"></p>
+      </div>
+    </footer>
+    <!-- Footer End -->
 
     <!-- End Codes -->
 
     <!-- External JS -->
-
-</head>
-
-<body>
-
-</body>
-
+    <script src="./miuul.js"></script>
+  </body>
 </html>
